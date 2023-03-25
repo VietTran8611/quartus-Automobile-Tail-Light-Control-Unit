@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/light/simulation/qsim
+vlight
+Z1 !s110 1644614617
+!i10b 1
+!s100 [5jZ>o3Ycm6VMhJToLRL31
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IJ=6[P9;Ufljf[EPNZFo4P3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1644614616
+8light.vo
+Flight.vo
+!i122 178
+L0 32 974
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1644614616.000000
+!s107 light.vo|
+!s90 -work|work|light.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vlight_vlg_vec_tst
+R1
+!i10b 1
+!s100 dTAhk09oIC;?bFRkR:Fof1
+R2
+InN:]Q73if2z1;<XfHh4_D1
+R3
+R0
+w1644614614
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 179
+L0 30 118
+R4
+r1
+!s85 0
+31
+!s108 1644614617.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6

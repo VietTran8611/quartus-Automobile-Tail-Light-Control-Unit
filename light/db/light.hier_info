@@ -1,0 +1,66 @@
+|light
+l4o <= inst28.DB_MAX_OUTPUT_PORT_TYPE
+l => toggle:inst44.l
+r => toggle:inst44.r
+b => toggle:inst44.b
+clk => inst2.CLK
+clk => flash1:inst29.clk
+l3o <= inst27.DB_MAX_OUTPUT_PORT_TYPE
+l2o <= inst26.DB_MAX_OUTPUT_PORT_TYPE
+l1o <= inst25.DB_MAX_OUTPUT_PORT_TYPE
+r3o <= inst23.DB_MAX_OUTPUT_PORT_TYPE
+r2o <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+r1o <= inst21.DB_MAX_OUTPUT_PORT_TYPE
+r4o <= inst24.DB_MAX_OUTPUT_PORT_TYPE
+al <= test.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|light|toggle:inst44
+llall <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+r => inst12.IN0
+r => inst7.IN1
+r => inst14.IN0
+r => inst1.IN0
+r => inst2.IN1
+b => inst12.IN1
+b => inst11.IN1
+b => inst16.IN0
+b => inst15.IN1
+b => inst4.IN0
+l => inst10.IN0
+l => inst.IN0
+l => inst15.IN0
+l => inst3.IN0
+l => inst2.IN0
+rightflash <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+rlall <= inst17.DB_MAX_OUTPUT_PORT_TYPE
+leftflash <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+alllightflash <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|light|flash1:inst29
+z4 <= inst20.DB_MAX_OUTPUT_PORT_TYPE
+rflash => lrchange1bit:inst24.rrl
+rflash => inst17.IN0
+lflash => lrchange1bit:inst24.llf
+lflash => inst17.IN1
+clk => lrchange1bit:inst24.clk
+clk => inst.CLK
+clk => inst2.CLK
+clk => inst1.CLK
+z3 <= inst23.DB_MAX_OUTPUT_PORT_TYPE
+z2 <= inst26.DB_MAX_OUTPUT_PORT_TYPE
+z1 <= inst29.DB_MAX_OUTPUT_PORT_TYPE
+test <= inst21.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|light|flash1:inst29|lrchange1bit:inst24
+zout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+clk => inst.CLK
+clk => inst1.CLK
+rrl => inst.DATAIN
+rrl => inst6.IN0
+llf => inst7.IN1
+llf => inst1.DATAIN
+
+
